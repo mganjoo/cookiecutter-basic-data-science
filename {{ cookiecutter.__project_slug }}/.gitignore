@@ -1,0 +1,8 @@
+# Virtual env directory
+.venv
+
+# Caches
+.mypy_cache
+
+# Egg info
+*.egg-info
