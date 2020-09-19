@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-# Initial directory
+# Initialize git repository in directory
 git init
 
-# Install dependencies
+# Install initial (mostly dev) dependencies
 poetry install
 
-# Setup pre-commit and pre-push hooks
+# Setup pre-commit and pre-push hooks (linting and formatting)
 poetry run pre-commit install
