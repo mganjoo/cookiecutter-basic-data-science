@@ -6,6 +6,7 @@ authors = ["{{ cookiecutter.author_name }}"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+jupyterlab = "*"
 
 [tool.poetry.dev-dependencies]
 # Only >= 6.0 supports configuration within pyproject.toml
