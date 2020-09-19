@@ -3,5 +3,8 @@
     "python.linting.flake8Enabled": true,
     "python.linting.mypyEnabled": true,
     "python.sortImports.path": "isort",
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
 }
