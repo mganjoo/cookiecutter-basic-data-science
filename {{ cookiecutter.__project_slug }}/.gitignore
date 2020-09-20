@@ -9,3 +9,8 @@
 
 # Data directory
 /data/
+
+# Coverage
+.coverage
+cov.xml
+htmlcov/

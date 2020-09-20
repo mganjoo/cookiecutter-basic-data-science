@@ -17,6 +17,7 @@ flake8 = "*"
 isort = "*"
 mypy = "*"
 pre-commit = "*"
+pytest-cov = "*"
 
 [tool.pytest.ini_options]
 minversion = "6.0"
