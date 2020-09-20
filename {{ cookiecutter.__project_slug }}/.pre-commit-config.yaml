@@ -27,7 +27,7 @@ repos:
         stages: [commit]
         language: system
         entry: poetry run pytest
-        types [python]
+        types: [python]
 
       - id: pytest-cov
         name: pytest
