@@ -6,3 +6,6 @@
 
 # Egg info
 *.egg-info
+
+# Data directory
+/data/
