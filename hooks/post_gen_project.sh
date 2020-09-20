@@ -7,4 +7,5 @@ git init
 poetry install
 
 # Setup pre-commit and pre-push hooks (linting and formatting)
-poetry run pre-commit install
+poetry run pre-commit install -t pre-commit
+poetry run pre-commit install -t pre-push
