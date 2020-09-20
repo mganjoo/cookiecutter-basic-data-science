@@ -2,7 +2,9 @@
     "python.formatting.provider": "black",
     "python.linting.flake8Enabled": true,
     "python.linting.mypyEnabled": true,
-    "python.sortImports.path": "isort",
+    // Must remain unset while this issue is open:
+    // https://github.com/microsoft/vscode-python/issues/7042
+    // "python.sortImports.path": "isort",
     "python.testing.pytestEnabled": true,
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
