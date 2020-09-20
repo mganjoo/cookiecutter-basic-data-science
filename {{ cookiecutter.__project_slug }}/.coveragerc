@@ -3,6 +3,12 @@ source = src
 
 [report]
 show_missing = True
+exclude_lines =
+    # re-introducing the default exclusion
+    pragma: no cover
+
+    # exclude not implemented code
+    raise NotImplementedError
 
 [xml]
 output = cov.xml
