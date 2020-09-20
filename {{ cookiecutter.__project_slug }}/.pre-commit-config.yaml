@@ -22,12 +22,20 @@ repos:
         entry: poetry run flake8
         types: [python]
 
+      - id: mypy
+        name: mypy
+        stages: [commit]
+        language: system
+        entry: poetry run mypy
+        types: [python]
+
       - id: pytest
         name: pytest
-        stages: [commit]
+        stages: [push]
         language: system
         entry: poetry run pytest
         types: [python]
+        pass_filenames: false
 
       - id: pytest-cov
         name: pytest
