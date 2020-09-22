@@ -7,7 +7,6 @@ authors = ["{{ cookiecutter.author_name }}"]
 [tool.poetry.dependencies]
 python = "^3.8"
 jupyterlab = "*"
-python-dotenv = "*"
 
 [tool.poetry.dev-dependencies]
 # Only >= 6.0 supports configuration within pyproject.toml
@@ -19,6 +18,7 @@ isort = "*"
 mypy = "*"
 pre-commit = "*"
 pytest-cov = "*"
+python-dotenv = "*"
 rope = "*"
 
 [tool.pytest.ini_options]
