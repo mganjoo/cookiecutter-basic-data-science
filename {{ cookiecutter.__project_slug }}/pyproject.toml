@@ -19,6 +19,7 @@ isort = "*"
 mypy = "*"
 pre-commit = "*"
 pytest-cov = "*"
+rope = "*"
 
 [tool.pytest.ini_options]
 minversion = "6.0"

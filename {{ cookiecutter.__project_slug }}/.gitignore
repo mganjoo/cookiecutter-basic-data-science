@@ -1,6 +1,9 @@
 # Virtual env directory
 .venv
 
+# Rope project
+.ropeproject
+
 # Caches
 .mypy_cache
 
