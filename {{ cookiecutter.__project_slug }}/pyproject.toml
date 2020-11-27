@@ -6,21 +6,8 @@ authors = ["{{ cookiecutter.author_name }}"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-jupyterlab = "*"
-typer = "*"
 
 [tool.poetry.dev-dependencies]
-# Only >= 6.0 supports configuration within pyproject.toml
-pytest = ">= 6.0"
-# Wildcard version matching doesn't work with black's version format
-black = "^20.8b1"
-flake8 = "*"
-isort = "*"
-mypy = "*"
-pre-commit = "*"
-pytest-cov = "*"
-python-dotenv = "*"
-rope = "*"
 
 [tool.pytest.ini_options]
 minversion = "6.0"
