@@ -1,9 +1,9 @@
 mypy:
-	poetry run mypy
+	pipenv run mypy
 
 test:
-	poetry run py.test
+	pipenv run py.test
 
 coverage:
-	poetry run py.test --cov --cov-fail-under=100 \
+	pipenv run py.test --cov --cov-fail-under=100 \
 		--cov-report term --cov-report xml

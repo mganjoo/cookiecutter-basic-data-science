@@ -14,7 +14,7 @@
    pipx install git+https://github.com/cookiecutter/cookiecutter.git
    ```
 
-2. [Install Poetry](https://python-poetry.org/docs/#installation) for
+2. [Install Pipenv](https://docs.pipenv.org/#install-pipenv-today) for
    dependency management.
 
 ## Starting a new project
